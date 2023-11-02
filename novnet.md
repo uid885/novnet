@@ -83,8 +83,14 @@ the server and logged into XOA <br>
 ![Screenshot from 2023-11-01 22-53-43](https://github.com/uid885/novnet/assets/135722741/3a985f85-74f4-4485-a666-1c33d9cd1c90)
 *In Browser Access to VM's etc*
 
-![Screenshot from 2023-11-02 15-06-36](https://github.com/uid885/novnet/assets/135722741/591b2e48-e525-4e95-bb40-6551b411a3d7)
-*Accessing the XCP-ng server using XE-Console*
+## Accessing the XCP-ng server directly to manage hypervisor as if you are infront of it
+
+```
+ssh root@192.168.0.10
+[21:06vmm~]# xsconsole
+```
+
+![Screenshot from 2023-11-02 21-02-34](https://github.com/uid885/novnet/assets/135722741/f8752067-9cdd-4709-8f10-602a0411c833)
 
 You can basically manage everything on your XCP-ng server from XOA. I love how simplistic and easy to ues the interface is.
 
