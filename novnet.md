@@ -82,7 +82,7 @@ You can basically manage everything on your XCP-ng server from XOA. I love how s
 ## Another way I use to access the Server & VMs
 I installed a free copy of [Remote Desktop Manager](https://devolutions.net/remote-desktop-manager/). <br>
 
-![Screenshot from 2023-11-02 15-10-34](https://github.com/uid885/novnet/assets/135722741/ba5c66bb-13c3-42f1-9fac-1f54ea39afa4)
+![Screenshot from 2023-11-02 18-53-50](https://github.com/uid885/novnet/assets/135722741/70405601-cf55-405e-8a0f-abd95725eec0)
 *Remote Desktop Manager, allowing multiple open tabs with different sessions to VMs (ssh, cockpit, xrpd, rdm etc)*
 
 ## Novnet Network Diagram
