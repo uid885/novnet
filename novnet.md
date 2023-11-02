@@ -94,6 +94,10 @@ I installed a free copy of [Remote Desktop Manager](https://devolutions.net/remo
 ![Screenshot from 2023-11-02 19-03-00](https://github.com/uid885/novnet/assets/135722741/4ee13f2e-5e5c-45a9-8737-112d9c90045b)
 *Remote Desktop Manager, allowing multiple open tabs with different sessions to VMs (ssh, cockpit, xrpd, rdm etc)*
 
+![Screenshot from 2023-11-02 20-03-47](https://github.com/uid885/novnet/assets/135722741/45dc6e4f-d0c0-4eed-ab8c-b158081ed3d0)
+*Accessing my pfSense dashboard via web browser*
+
+
 ## Novnet Network Diagram
 I used [online.visual-paradigm](https://online.visual-paradigm.com/) to create my diagram.
 Consider novnet.co.za is a homelab use domain i created. 
