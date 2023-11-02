@@ -59,7 +59,16 @@ systemctl start xe-linux-distribution
 ```
 ### Step 3 - Windows XCP-ng Tools
 On my Windows 10 & Windows Server 2022 boxes i had to mount the XCP-ng Tools drive (its a storage SR). <br>
-Simply navigate to the "dvd rom" labled XCP-ng Tools, and install the setup.exe 
+Simply navigate to the "dvd rom" labled XCP-ng Tools, and install the setup.exe
+
+### Step 4 - pfSense XE-GUEST-UTILITIES
+On my pfSense box i had to do the following after install to get the tools working. ssh into the pfSense box then: <br>
+```
+pkg install xe-guest-utilities
+echo 'xenguest_enable="YES"' >> /etc/rc.conf.local
+ln -s /usr/local/etc/rc.d/xenguest /usr/local/etc/rc.d/xenguest.sh
+service xenguest start
+````
 
 ## Access to VMs
 On my daily (Lenovo T460p), where i installed the XOA (Orchestra), I navigated to the static IP address of <br>
